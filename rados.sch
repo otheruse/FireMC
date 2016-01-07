@@ -63,7 +63,7 @@ F 3 "" H 4100 4150 60  0000 C CNN
 	1    4100 4150
 	1    0    0    -1  
 $EndComp
-Text GLabel 3100 2200 0    47   Input ~ 0
+Text GLabel 3000 2200 0    47   Input ~ 0
 RESET
 $Comp
 L GND #PWR01
@@ -79,24 +79,22 @@ $EndComp
 $Comp
 L +3.3V #PWR02
 U 1 1 568A9448
-P 2700 2275
-F 0 "#PWR02" H 2700 2125 50  0001 C CNN
-F 1 "+3.3V" H 2718 2449 50  0000 C CNN
-F 2 "" H 2700 2275 50  0000 C CNN
-F 3 "" H 2700 2275 50  0000 C CNN
-	1    2700 2275
+P 2650 2275
+F 0 "#PWR02" H 2650 2125 50  0001 C CNN
+F 1 "+3.3V" H 2625 2400 50  0000 C CNN
+F 2 "" H 2650 2275 50  0000 C CNN
+F 3 "" H 2650 2275 50  0000 C CNN
+	1    2650 2275
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 2300 3100 2300
-Wire Wire Line
-	2700 2300 2700 2275
+	2650 2300 3100 2300
 $Comp
 L +5V #PWR03
 U 1 1 568A946E
 P 2525 2400
 F 0 "#PWR03" H 2525 2250 50  0001 C CNN
-F 1 "+5V" H 2543 2574 50  0000 C CNN
+F 1 "+5V" H 2500 2525 50  0000 C CNN
 F 2 "" H 2525 2400 50  0000 C CNN
 F 3 "" H 2525 2400 50  0000 C CNN
 	1    2525 2400
@@ -110,7 +108,7 @@ U 568AA436
 F0 "Power" 59
 F1 "power.sch" 59
 $EndSheet
-Text GLabel 3100 2700 0    47   Input ~ 0
+Text GLabel 3000 2700 0    47   Input ~ 0
 ARDUINO-VIN
 $Sheet
 S 6700 1950 1050 550 
@@ -158,4 +156,210 @@ U 568CF154
 F0 "Misc" 60
 F1 "misc.sch" 60
 $EndSheet
+Text GLabel 5100 2300 2    47   Output ~ 0
+CS0
+Text GLabel 5100 3000 2    47   Output ~ 0
+CS1
+Wire Wire Line
+	5100 3000 5000 3000
+Wire Wire Line
+	5100 2300 5000 2300
+Text GLabel 5100 3100 2    47   Output ~ 0
+Z-DIR
+Text GLabel 5100 3200 2    47   Output ~ 0
+Z-STEP
+Wire Wire Line
+	5000 3100 5100 3100
+Wire Wire Line
+	5000 3200 5100 3200
+Text GLabel 5125 3600 2    47   Input ~ 0
+SD_CD
+Text GLabel 5125 3700 2    47   Output ~ 0
+Z-EN
+Text GLabel 5125 3800 2    47   Output ~ 0
+Y-DIR
+Text GLabel 5125 3900 2    47   Output ~ 0
+Y-STEP
+Text GLabel 5125 4200 2    47   BiDi ~ 0
+SDA
+Text GLabel 5125 4300 2    47   BiDi ~ 0
+SCL
+$Comp
+L +5V #PWR?
+U 1 1 568ECF51
+P 5000 4650
+F 0 "#PWR?" H 5000 4500 50  0001 C CNN
+F 1 "+5V" H 5018 4824 50  0000 C CNN
+F 2 "" H 5000 4650 50  0000 C CNN
+F 3 "" H 5000 4650 50  0000 C CNN
+	1    5000 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5125 3600 5000 3600
+Wire Wire Line
+	5125 3700 5000 3700
+Wire Wire Line
+	5125 3800 5000 3800
+Wire Wire Line
+	5125 3900 5000 3900
+Wire Wire Line
+	5000 4200 5125 4200
+Wire Wire Line
+	5125 4300 5000 4300
+Wire Wire Line
+	5000 4650 5000 4850
+Connection ~ 5000 4750
+Text GLabel 5125 5050 2    47   Output ~ 0
+Y-EN
+Text GLabel 5125 5150 2    47   Output ~ 0
+X-DIR
+Text GLabel 5125 5250 2    47   Output ~ 0
+X-STEP
+Text GLabel 5125 5450 2    47   Output ~ 0
+X-EN
+Text GLabel 5125 5650 2    47   Input ~ 0
+X-
+Text GLabel 5125 5900 2    47   Input ~ 0
+Y-
+Text GLabel 5125 6100 2    47   Input ~ 0
+Z-
+Text GLabel 5125 6300 2    47   Input ~ 0
+X+
+Text GLabel 5125 6500 2    47   Input ~ 0
+Y+
+Text GLabel 3000 6600 0    47   Input ~ 0
+Z+
+Wire Wire Line
+	5000 5050 5125 5050
+Wire Wire Line
+	5125 5150 5000 5150
+Wire Wire Line
+	5000 5250 5125 5250
+Wire Wire Line
+	5000 5450 5125 5450
+Wire Wire Line
+	5125 5650 5000 5650
+Wire Wire Line
+	5000 5900 5125 5900
+Wire Wire Line
+	5125 6100 5000 6100
+Wire Wire Line
+	5000 6300 5125 6300
+Wire Wire Line
+	5125 6500 5000 6500
+Wire Wire Line
+	3000 6600 3100 6600
+Text GLabel 3000 6150 0    47   BiDi ~ 0
+LCD_RS
+Text GLabel 3000 6050 0    47   BiDi ~ 0
+LCD_E
+Text GLabel 3000 5950 0    47   BiDi ~ 0
+LCD_4
+Text GLabel 3000 5850 0    47   BiDi ~ 0
+LCD_5
+Text GLabel 3000 5750 0    47   BiDi ~ 0
+LCD_6
+Text GLabel 3000 5650 0    47   BiDi ~ 0
+LCD_7
+Text GLabel 3000 5550 0    47   BiDi ~ 0
+ENC_SW
+Text GLabel 3000 5300 0    47   BiDi ~ 0
+ENC_B
+Text GLabel 3000 5100 0    47   BiDi ~ 0
+ENC_A
+Wire Wire Line
+	3000 6150 3100 6150
+Wire Wire Line
+	3100 6050 3000 6050
+Wire Wire Line
+	3000 5950 3100 5950
+Wire Wire Line
+	3100 5850 3000 5850
+Wire Wire Line
+	3000 5750 3100 5750
+Wire Wire Line
+	3100 5650 3000 5650
+Wire Wire Line
+	3000 5550 3100 5550
+Wire Wire Line
+	3000 5300 3100 5300
+Wire Wire Line
+	3100 5100 3000 5100
+Text GLabel 3000 5450 0    47   Output ~ 0
+E3-EN
+Text GLabel 3000 5200 0    47   Output ~ 0
+E3-STEP
+Text GLabel 3000 5000 0    47   Output ~ 0
+E3-DIR
+Wire Wire Line
+	3000 5000 3100 5000
+Wire Wire Line
+	3100 5200 3000 5200
+Wire Wire Line
+	3000 5450 3100 5450
+$Comp
+L GND #PWR?
+U 1 1 568EE3CA
+P 3100 4850
+F 0 "#PWR?" H 3100 4600 50  0001 C CNN
+F 1 "GND" H 3108 4676 50  0000 C CNN
+F 2 "" H 3100 4850 50  0000 C CNN
+F 3 "" H 3100 4850 50  0000 C CNN
+	1    3100 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 4850 3100 4750
+Connection ~ 3100 4850
+Text GLabel 3000 4000 0    47   Output ~ 0
+E2-STEP
+Text GLabel 3000 4100 0    47   Output ~ 0
+E2-EN
+Text GLabel 3000 3900 0    47   Output ~ 0
+E2-DIR
+Wire Wire Line
+	3000 4100 3100 4100
+Wire Wire Line
+	3100 4000 3000 4000
+Wire Wire Line
+	3000 3900 3100 3900
+Text GLabel 3000 3600 0    47   Output ~ 0
+E1-STEP
+Text GLabel 3000 3800 0    47   Output ~ 0
+E1-EN
+Text GLabel 3000 3500 0    47   Output ~ 0
+E1-DIR
+Wire Wire Line
+	3000 3800 3100 3800
+Wire Wire Line
+	3100 3600 3000 3600
+Wire Wire Line
+	3000 3500 3100 3500
+Wire Wire Line
+	3000 2700 3100 2700
+Wire Wire Line
+	2650 2300 2650 2275
+Wire Wire Line
+	3000 2200 3100 2200
+Text GLabel 3000 2900 0    47   Input ~ 0
+T0
+Text GLabel 3000 3000 0    47   Input ~ 0
+T1
+Text GLabel 3000 3100 0    47   Input ~ 0
+T2
+Text GLabel 3000 3200 0    47   Input ~ 0
+T3
+Text GLabel 3000 3300 0    47   Input ~ 0
+T4
+Wire Wire Line
+	3000 2900 3100 2900
+Wire Wire Line
+	3100 3000 3000 3000
+Wire Wire Line
+	3000 3100 3100 3100
+Wire Wire Line
+	3100 3200 3000 3200
+Wire Wire Line
+	3000 3300 3100 3300
 $EndSCHEMATC
