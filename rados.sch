@@ -123,13 +123,13 @@ Text GLabel 5100 2500 2    47   Output ~ 0
 HP-FET1
 Text GLabel 5100 2800 2    47   Output ~ 0
 HP-FET2
-Text GLabel 5100 2700 2    47   Output ~ 0
+Text GLabel 5100 3400 2    47   Output ~ 0
 HP-FET3
-Text GLabel 5125 3900 2    47   Output ~ 0
+Text GLabel 5125 3700 2    47   Output ~ 0
 MP-FET1
-Text GLabel 5125 4100 2    47   Output ~ 0
+Text GLabel 5125 3800 2    47   Output ~ 0
 LP-FET1
-Text GLabel 5125 4000 2    47   Output ~ 0
+Text GLabel 5125 3900 2    47   Output ~ 0
 LP-FET2
 Wire Wire Line
 	5000 2000 5100 2000
@@ -142,7 +142,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 2500 5100 2500
 Wire Wire Line
-	5000 2700 5100 2700
+	5000 3400 5100 3400
 Wire Wire Line
 	5100 2800 5000 2800
 $Sheet
@@ -177,9 +177,9 @@ Text GLabel 5125 3600 2    47   Input ~ 0
 SD2-CS
 Text GLabel 5100 2100 2    47   Output ~ 0
 Z-EN
-Text GLabel 5125 3800 2    47   Output ~ 0
+Text GLabel 5100 3200 2    47   Output ~ 0
 Y-DIR
-Text GLabel 5125 3400 2    47   Output ~ 0
+Text GLabel 5100 3300 2    47   Output ~ 0
 Y-STEP
 Text GLabel 5125 4200 2    47   BiDi ~ 0
 SDA
@@ -210,87 +210,73 @@ Wire Wire Line
 	5125 4300 5000 4300
 Wire Wire Line
 	5000 4625 5000 4725
-Text GLabel 5125 5050 2    47   Output ~ 0
+Text GLabel 5100 3100 2    47   Output ~ 0
 Y-EN
-Text GLabel 5125 5150 2    47   Output ~ 0
+Text GLabel 5125 4100 2    47   Output ~ 0
 X-DIR
-Text GLabel 5125 5250 2    47   Output ~ 0
+Text GLabel 5125 4000 2    47   Output ~ 0
 X-STEP
-Text GLabel 5125 5450 2    47   Output ~ 0
+Text GLabel 3000 6400 0    47   Output ~ 0
 X-EN
-Text GLabel 5125 5650 2    47   Input ~ 0
+Text GLabel 5125 5050 2    47   Input ~ 0
 X-
-Text GLabel 5125 5900 2    47   Input ~ 0
+Text GLabel 5125 5250 2    47   Input ~ 0
 Y-
-Text GLabel 5125 6100 2    47   Input ~ 0
+Text GLabel 5125 5450 2    47   Input ~ 0
 Z-
-Text GLabel 5125 6300 2    47   Input ~ 0
+Text GLabel 5125 5150 2    47   Input ~ 0
 X+
-Text GLabel 5125 6500 2    47   Input ~ 0
+Text GLabel 5125 5350 2    47   Input ~ 0
 Y+
-Text GLabel 3000 6600 0    47   Input ~ 0
+Text GLabel 5125 5550 2    47   Input ~ 0
 Z+
 Wire Wire Line
-	5000 5050 5125 5050
-Wire Wire Line
-	5125 5150 5000 5150
+	5125 5050 5000 5050
 Wire Wire Line
 	5000 5250 5125 5250
 Wire Wire Line
 	5000 5450 5125 5450
 Wire Wire Line
+	5125 5150 5000 5150
+Wire Wire Line
+	5000 5550 5125 5550
+Wire Wire Line
+	5125 6000 5000 6000
+Wire Wire Line
+	5000 5350 5125 5350
+Wire Wire Line
 	5125 5650 5000 5650
 Wire Wire Line
-	5000 5900 5125 5900
-Wire Wire Line
-	5125 6100 5000 6100
-Wire Wire Line
-	5000 6300 5125 6300
-Wire Wire Line
-	5125 6500 5000 6500
-Wire Wire Line
-	3000 6600 3100 6600
-Text GLabel 3000 6150 0    47   BiDi ~ 0
+	5125 6200 5000 6200
+Text GLabel 3000 6600 0    47   BiDi ~ 0
 LCD-RS
-Text GLabel 3000 6050 0    47   BiDi ~ 0
+Text GLabel 5125 6500 2    47   BiDi ~ 0
 LCD-E
-Text GLabel 3000 5950 0    47   BiDi ~ 0
-LCD-4
-Text GLabel 3000 5850 0    47   BiDi ~ 0
-LCD-5
-Text GLabel 3000 5750 0    47   BiDi ~ 0
-LCD-6
-Text GLabel 3000 5650 0    47   BiDi ~ 0
-LCD-7
-Text GLabel 3000 5550 0    47   BiDi ~ 0
+Text GLabel 5125 6200 2    47   BiDi ~ 0
+LCD-D4
+Text GLabel 5125 6600 2    47   BiDi ~ 0
+LCD-D5
+Text GLabel 5125 6400 2    47   BiDi ~ 0
+LCD-D6
+Text GLabel 5125 6300 2    47   BiDi ~ 0
+LCD-D7
+Text GLabel 2975 5550 0    47   BiDi ~ 0
 ENC-SW
-Text GLabel 3000 5300 0    47   BiDi ~ 0
+Text GLabel 3000 6500 0    47   BiDi ~ 0
 ENC-B
-Text GLabel 3000 5100 0    47   BiDi ~ 0
+Text GLabel 3000 6300 0    47   BiDi ~ 0
 ENC-A
 Wire Wire Line
-	3000 6150 3100 6150
-Wire Wire Line
-	3100 6050 3000 6050
-Wire Wire Line
-	3000 5950 3100 5950
-Wire Wire Line
-	3100 5850 3000 5850
-Wire Wire Line
-	3000 5750 3100 5750
-Wire Wire Line
-	3100 5650 3000 5650
-Wire Wire Line
-	3000 5550 3100 5550
+	2975 5550 3100 5550
 Wire Wire Line
 	3000 5300 3100 5300
 Wire Wire Line
 	3100 5100 3000 5100
-Text GLabel 3000 5450 0    47   Output ~ 0
+Text GLabel 2975 6150 0    47   Output ~ 0
 E3-EN
-Text GLabel 3000 5200 0    47   Output ~ 0
+Text GLabel 2975 5950 0    47   Output ~ 0
 E3-STEP
-Text GLabel 3000 5000 0    47   Output ~ 0
+Text GLabel 2975 5750 0    47   Output ~ 0
 E3-DIR
 Wire Wire Line
 	3000 5000 3100 5000
@@ -311,23 +297,23 @@ F 3 "" H 3100 4850 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	3100 4625 3100 4850
-Text GLabel 3000 4000 0    47   Output ~ 0
+Text GLabel 2975 3300 0    47   Output ~ 0
 E2-STEP
-Text GLabel 3000 3400 0    47   Output ~ 0
+Text GLabel 2975 3400 0    47   Output ~ 0
 E2-EN
-Text GLabel 3000 3900 0    47   Output ~ 0
+Text GLabel 2975 3200 0    47   Output ~ 0
 E2-DIR
 Wire Wire Line
-	3000 3400 3100 3400
+	2975 3400 3100 3400
 Wire Wire Line
 	3100 4000 3000 4000
 Wire Wire Line
 	3000 3900 3100 3900
-Text GLabel 3000 3600 0    47   Output ~ 0
+Text GLabel 2975 3000 0    47   Output ~ 0
 E1-STEP
-Text GLabel 3000 3800 0    47   Output ~ 0
+Text GLabel 2975 3100 0    47   Output ~ 0
 E1-EN
-Text GLabel 3000 3500 0    47   Output ~ 0
+Text GLabel 2975 2900 0    47   Output ~ 0
 E1-DIR
 Wire Wire Line
 	3000 3800 3100 3800
@@ -341,15 +327,15 @@ Wire Wire Line
 	2650 2300 2650 2275
 Wire Wire Line
 	3000 2200 3100 2200
-Text GLabel 3000 4500 0    47   Input ~ 0
+Text GLabel 3000 4100 0    47   Input ~ 0
 T0
-Text GLabel 3000 4400 0    47   Input ~ 0
+Text GLabel 3000 4200 0    47   Input ~ 0
 T1
 Text GLabel 3000 4300 0    47   Input ~ 0
 T2
-Text GLabel 3000 4200 0    47   Input ~ 0
+Text GLabel 3000 4400 0    47   Input ~ 0
 T3
-Text GLabel 3000 4100 0    47   Input ~ 0
+Text GLabel 3000 4500 0    47   Input ~ 0
 T4
 Wire Wire Line
 	3000 4500 3100 4500
@@ -361,7 +347,7 @@ Wire Wire Line
 	3100 4200 3000 4200
 Wire Wire Line
 	3000 4100 3100 4100
-Text GLabel 3000 6300 0    47   Input ~ 0
+Text GLabel 5125 5750 2    47   Input ~ 0
 STATUS-LED
 Wire Wire Line
 	3000 6300 3100 6300
@@ -393,5 +379,47 @@ Wire Wire Line
 Wire Wire Line
 	5000 4000 5125 4000
 Wire Wire Line
-	5125 3400 5000 3400
+	5100 3300 5000 3300
+Text GLabel 5125 5650 2    47   Input ~ 0
+Probe
+Wire Wire Line
+	5000 6400 5125 6400
+Wire Wire Line
+	5000 6500 5125 6500
+Wire Wire Line
+	3000 6400 3100 6400
+Wire Wire Line
+	3000 6600 3100 6600
+Wire Wire Line
+	5125 6600 5000 6600
+Wire Wire Line
+	5125 6300 5000 6300
+Text GLabel 3000 3600 0    47   BiDi ~ 0
+AUX-1
+Text GLabel 3000 3800 0    47   BiDi ~ 0
+AUX-2
+Text GLabel 3000 3900 0    47   BiDi ~ 0
+AUX-3
+Text GLabel 3000 4000 0    47   BiDi ~ 0
+AUX-4
+Wire Wire Line
+	2975 2900 3100 2900
+Wire Wire Line
+	3100 3000 2975 3000
+Wire Wire Line
+	2975 3100 3100 3100
+Wire Wire Line
+	2975 3200 3100 3200
+Wire Wire Line
+	3100 3300 2975 3300
+Wire Wire Line
+	3000 6500 3100 6500
+Wire Wire Line
+	3100 6150 2975 6150
+Wire Wire Line
+	5125 5750 5000 5750
+Wire Wire Line
+	2975 5750 3100 5750
+Wire Wire Line
+	2975 5950 3100 5950
 $EndSCHEMATC
