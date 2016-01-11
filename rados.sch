@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:led_reverse
 LIBS:arduino_shieldsNCL
 LIBS:otheruse_transistors
 LIBS:custom_power
@@ -58,7 +59,7 @@ U 1 1 568A9199
 P 4100 4150
 F 0 "SHIELD1" H 4050 7087 60  0000 C CNN
 F 1 "ARDUINO_DUE_SHIELD" H 4050 6981 60  0000 C CNN
-F 2 "arduino-footprint:ARDUINO_MEGA_DUE_SHIELD_FOOTPRINT_RMC" H 4100 4150 60  0001 C CNN
+F 2 "arduino-footprint:ARDUINO_MEGA_DUE_SHIELD_FOOTPRINT_OTH2" H 4100 4150 60  0001 C CNN
 F 3 "" H 4100 4150 60  0000 C CNN
 	1    4100 4150
 	1    0    0    -1  
@@ -116,19 +117,19 @@ U 568AEC5A
 F0 "Mosfets" 60
 F1 "mosfets.sch" 60
 $EndSheet
-Text GLabel 5100 2700 2    47   Output ~ 0
+Text GLabel 5100 2000 2    47   Output ~ 0
 HB-FET
 Text GLabel 5100 2500 2    47   Output ~ 0
 HP-FET1
-Text GLabel 5100 2400 2    47   Output ~ 0
-HP-FET2
-Text GLabel 5100 2200 2    47   Output ~ 0
-HP-FET3
 Text GLabel 5100 2800 2    47   Output ~ 0
+HP-FET2
+Text GLabel 5100 2700 2    47   Output ~ 0
+HP-FET3
+Text GLabel 5125 3900 2    47   Output ~ 0
 MP-FET1
-Text GLabel 5100 2100 2    47   Output ~ 0
+Text GLabel 5125 4100 2    47   Output ~ 0
 LP-FET1
-Text GLabel 5100 2000 2    47   Output ~ 0
+Text GLabel 5125 4000 2    47   Output ~ 0
 LP-FET2
 Wire Wire Line
 	5000 2000 5100 2000
@@ -157,42 +158,42 @@ F0 "Misc" 60
 F1 "misc.sch" 60
 $EndSheet
 Text GLabel 5100 2300 2    47   Output ~ 0
-CS0
+SD-CS
 Text GLabel 5100 3000 2    47   Output ~ 0
 CS1
 Wire Wire Line
 	5100 3000 5000 3000
 Wire Wire Line
 	5100 2300 5000 2300
-Text GLabel 5100 3100 2    47   Output ~ 0
+Text GLabel 5100 2200 2    47   Output ~ 0
 Z-DIR
-Text GLabel 5100 3200 2    47   Output ~ 0
+Text GLabel 5100 2400 2    47   Output ~ 0
 Z-STEP
 Wire Wire Line
 	5000 3100 5100 3100
 Wire Wire Line
 	5000 3200 5100 3200
 Text GLabel 5125 3600 2    47   Input ~ 0
-SD_CD
-Text GLabel 5125 3700 2    47   Output ~ 0
+SD2-CS
+Text GLabel 5100 2100 2    47   Output ~ 0
 Z-EN
 Text GLabel 5125 3800 2    47   Output ~ 0
 Y-DIR
-Text GLabel 5125 3900 2    47   Output ~ 0
+Text GLabel 5125 3400 2    47   Output ~ 0
 Y-STEP
 Text GLabel 5125 4200 2    47   BiDi ~ 0
 SDA
 Text GLabel 5125 4300 2    47   BiDi ~ 0
 SCL
 $Comp
-L +5V #PWR?
+L +5V #PWR04
 U 1 1 568ECF51
-P 5000 4650
-F 0 "#PWR?" H 5000 4500 50  0001 C CNN
-F 1 "+5V" H 5018 4824 50  0000 C CNN
-F 2 "" H 5000 4650 50  0000 C CNN
-F 3 "" H 5000 4650 50  0000 C CNN
-	1    5000 4650
+P 5000 4625
+F 0 "#PWR04" H 5000 4475 50  0001 C CNN
+F 1 "+5V" H 5018 4799 50  0000 C CNN
+F 2 "" H 5000 4625 50  0000 C CNN
+F 3 "" H 5000 4625 50  0000 C CNN
+	1    5000 4625
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -208,8 +209,7 @@ Wire Wire Line
 Wire Wire Line
 	5125 4300 5000 4300
 Wire Wire Line
-	5000 4650 5000 4850
-Connection ~ 5000 4750
+	5000 4625 5000 4725
 Text GLabel 5125 5050 2    47   Output ~ 0
 Y-EN
 Text GLabel 5125 5150 2    47   Output ~ 0
@@ -251,23 +251,23 @@ Wire Wire Line
 Wire Wire Line
 	3000 6600 3100 6600
 Text GLabel 3000 6150 0    47   BiDi ~ 0
-LCD_RS
+LCD-RS
 Text GLabel 3000 6050 0    47   BiDi ~ 0
-LCD_E
+LCD-E
 Text GLabel 3000 5950 0    47   BiDi ~ 0
-LCD_4
+LCD-4
 Text GLabel 3000 5850 0    47   BiDi ~ 0
-LCD_5
+LCD-5
 Text GLabel 3000 5750 0    47   BiDi ~ 0
-LCD_6
+LCD-6
 Text GLabel 3000 5650 0    47   BiDi ~ 0
-LCD_7
+LCD-7
 Text GLabel 3000 5550 0    47   BiDi ~ 0
-ENC_SW
+ENC-SW
 Text GLabel 3000 5300 0    47   BiDi ~ 0
-ENC_B
+ENC-B
 Text GLabel 3000 5100 0    47   BiDi ~ 0
-ENC_A
+ENC-A
 Wire Wire Line
 	3000 6150 3100 6150
 Wire Wire Line
@@ -299,27 +299,26 @@ Wire Wire Line
 Wire Wire Line
 	3000 5450 3100 5450
 $Comp
-L GND #PWR?
+L GND #PWR05
 U 1 1 568EE3CA
 P 3100 4850
-F 0 "#PWR?" H 3100 4600 50  0001 C CNN
-F 1 "GND" H 3108 4676 50  0000 C CNN
+F 0 "#PWR05" H 3100 4600 50  0001 C CNN
+F 1 "GND" H 3100 4700 50  0000 C CNN
 F 2 "" H 3100 4850 50  0000 C CNN
 F 3 "" H 3100 4850 50  0000 C CNN
 	1    3100 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 4850 3100 4750
-Connection ~ 3100 4850
+	3100 4625 3100 4850
 Text GLabel 3000 4000 0    47   Output ~ 0
 E2-STEP
-Text GLabel 3000 4100 0    47   Output ~ 0
+Text GLabel 3000 3400 0    47   Output ~ 0
 E2-EN
 Text GLabel 3000 3900 0    47   Output ~ 0
 E2-DIR
 Wire Wire Line
-	3000 4100 3100 4100
+	3000 3400 3100 3400
 Wire Wire Line
 	3100 4000 3000 4000
 Wire Wire Line
@@ -342,24 +341,57 @@ Wire Wire Line
 	2650 2300 2650 2275
 Wire Wire Line
 	3000 2200 3100 2200
-Text GLabel 3000 2900 0    47   Input ~ 0
+Text GLabel 3000 4500 0    47   Input ~ 0
 T0
-Text GLabel 3000 3000 0    47   Input ~ 0
+Text GLabel 3000 4400 0    47   Input ~ 0
 T1
-Text GLabel 3000 3100 0    47   Input ~ 0
+Text GLabel 3000 4300 0    47   Input ~ 0
 T2
-Text GLabel 3000 3200 0    47   Input ~ 0
+Text GLabel 3000 4200 0    47   Input ~ 0
 T3
-Text GLabel 3000 3300 0    47   Input ~ 0
+Text GLabel 3000 4100 0    47   Input ~ 0
 T4
 Wire Wire Line
-	3000 2900 3100 2900
+	3000 4500 3100 4500
 Wire Wire Line
-	3100 3000 3000 3000
+	3100 4400 3000 4400
 Wire Wire Line
-	3000 3100 3100 3100
+	3000 4300 3100 4300
 Wire Wire Line
-	3100 3200 3000 3200
+	3100 4200 3000 4200
 Wire Wire Line
-	3000 3300 3100 3300
+	3000 4100 3100 4100
+Text GLabel 3000 6300 0    47   Input ~ 0
+STATUS-LED
+Wire Wire Line
+	3000 6300 3100 6300
+Text GLabel 5100 1500 2    47   BiDi ~ 0
+SCL1
+Text GLabel 5100 1600 2    47   BiDi ~ 0
+SDA1
+Wire Wire Line
+	5100 1500 5000 1500
+Wire Wire Line
+	5000 1600 5100 1600
+Text GLabel 2975 1500 0    47   Input ~ 0
+SD-MISO
+Text GLabel 2975 1600 0    47   Input ~ 0
+SD-MOSI
+Text GLabel 2975 1700 0    47   Input ~ 0
+SD-SCK
+Wire Wire Line
+	2975 1500 3100 1500
+Wire Wire Line
+	3100 1600 2975 1600
+Wire Wire Line
+	2975 1700 3100 1700
+Connection ~ 3100 4725
+Connection ~ 3100 4825
+Connection ~ 5000 4625
+Wire Wire Line
+	5125 4100 5000 4100
+Wire Wire Line
+	5000 4000 5125 4000
+Wire Wire Line
+	5125 3400 5000 3400
 $EndSCHEMATC

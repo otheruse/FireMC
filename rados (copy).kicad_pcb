@@ -924,11 +924,6 @@
       (net 180 "Net-(D3-Pad1)"))
     (pad 2 smd rect (at 0.65532 -0.0127) (size 0.7493 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 8 HB-OUT))
-    (model /home/armin/dev/electronics/kicad_3dmodels/0603led.wrl
-      (at (xyz 0 0 0.015))
-      (scale (xyz 0.333 0.333 0.333))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module geda-footprints:0603diode (layer F.Cu) (tedit 568A4081) (tstamp 568AF9D9)
@@ -951,11 +946,6 @@
       (net 181 "Net-(D4-Pad1)"))
     (pad 2 smd rect (at 0.65532 -0.0127 90) (size 0.7493 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 9 MP-OUT1))
-    (model /home/armin/dev/electronics/kicad_3dmodels/0603led.wrl
-      (at (xyz 0 0 0.015))
-      (scale (xyz 0.333 0.333 0.333))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module geda-footprints:0603diode (layer F.Cu) (tedit 568A4081) (tstamp 568AF9DF)
@@ -978,11 +968,6 @@
       (net 182 "Net-(D5-Pad1)"))
     (pad 2 smd rect (at 0.65532 -0.0127 90) (size 0.7493 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 10 HP-OUT1))
-    (model /home/armin/dev/electronics/kicad_3dmodels/0603led.wrl
-      (at (xyz 0 0 0.015))
-      (scale (xyz 0.333 0.333 0.333))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module geda-footprints:DO214AC (layer F.Cu) (tedit 568A4081) (tstamp 568AF9E5)
@@ -1067,16 +1052,6 @@
       (net 183 "Net-(D9-Pad1)"))
     (pad 2 smd rect (at 0.65532 -0.0127 90) (size 0.7493 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 12 LP-OUT1))
-    (model /home/armin/dev/electronics/kicad_3dmodels/0603led.wrl
-      (at (xyz 0 0 0.015))
-      (scale (xyz 0.333 0.333 0.333))
-      (rotate (xyz 0 0 0))
-    )
-    (model /home/armin/dev/electronics/kicad_3dmodels/0603led.wrl
-      (at (xyz 0 0 0.015))
-      (scale (xyz 0.333 0.333 0.333))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module geda-footprints:0603diode (layer F.Cu) (tedit 568A4081) (tstamp 568AF9FD)
@@ -1099,16 +1074,6 @@
       (net 184 "Net-(D10-Pad1)"))
     (pad 2 smd rect (at 0.65532 -0.0127) (size 0.7493 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 13 HP-OUT2))
-    (model /home/armin/dev/electronics/kicad_3dmodels/0603led.wrl
-      (at (xyz 0 0 0.015))
-      (scale (xyz 0.333 0.333 0.333))
-      (rotate (xyz 0 0 0))
-    )
-    (model /home/armin/dev/electronics/kicad_3dmodels/0603led.wrl
-      (at (xyz 0 0 0.015))
-      (scale (xyz 0.333 0.333 0.333))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module geda-footprints:LL-34 (layer F.Cu) (tedit 568A4081) (tstamp 568AFA03)
@@ -1178,11 +1143,6 @@
       (scale (xyz 0.333 0.333 0.333))
       (rotate (xyz 0 0 0))
     )
-    (model /home/armin/dev/electronics/kicad_3dmodels/0603led.wrl
-      (at (xyz 0 0 0.015))
-      (scale (xyz 0.333 0.333 0.333))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module geda-footprints:0603diode (layer F.Cu) (tedit 568A4081) (tstamp 568AFA15)
@@ -1205,11 +1165,6 @@
       (net 186 "Net-(D14-Pad1)"))
     (pad 2 smd rect (at 0.65532 -0.0127) (size 0.7493 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 15 HP-OUT3))
-    (model /home/armin/dev/electronics/kicad_3dmodels/0603led.wrl
-      (at (xyz 0 0 0.015))
-      (scale (xyz 0.333 0.333 0.333))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module geda-footprints:LL-34 (layer F.Cu) (tedit 568A4081) (tstamp 568AFA1B)
@@ -4968,11 +4923,6 @@
       (net 188 "Net-(D17-Pad1)"))
     (pad 2 smd rect (at 0.65532 -0.0127) (size 0.7493 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 189 STATUS-LED))
-    (model /home/armin/dev/electronics/kicad_3dmodels/0603led.wrl
-      (at (xyz 0 0 0.015))
-      (scale (xyz 0.333 0.333 0.333))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module geda-footprints:BUTTON_PUSH_SMD_6x6mm (layer F.Cu) (tedit 568E8F37) (tstamp 568F7D47)
