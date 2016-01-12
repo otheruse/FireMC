@@ -119,7 +119,7 @@ F1 "mosfets.sch" 60
 $EndSheet
 Text GLabel 5100 2000 2    47   Output ~ 0
 HB-FET
-Text GLabel 5100 2500 2    47   Output ~ 0
+Text GLabel 5100 2700 2    47   Output ~ 0
 HP-FET1
 Text GLabel 5100 2800 2    47   Output ~ 0
 HP-FET2
@@ -167,7 +167,7 @@ Wire Wire Line
 	5100 2300 5000 2300
 Text GLabel 5100 2200 2    47   Output ~ 0
 Z-DIR
-Text GLabel 5100 2400 2    47   Output ~ 0
+Text GLabel 5100 2500 2    47   Output ~ 0
 Z-STEP
 Wire Wire Line
 	5000 3100 5100 3100
@@ -179,7 +179,7 @@ Text GLabel 5100 2100 2    47   Output ~ 0
 Z-EN
 Text GLabel 5100 3200 2    47   Output ~ 0
 Y-DIR
-Text GLabel 5100 3300 2    47   Output ~ 0
+Text GLabel 5100 3100 2    47   Output ~ 0
 Y-STEP
 Text GLabel 5125 4200 2    47   BiDi ~ 0
 SDA
@@ -210,7 +210,7 @@ Wire Wire Line
 	5125 4300 5000 4300
 Wire Wire Line
 	5000 4625 5000 4725
-Text GLabel 5100 3100 2    47   Output ~ 0
+Text GLabel 5100 3300 2    47   Output ~ 0
 Y-EN
 Text GLabel 5125 4100 2    47   Output ~ 0
 X-DIR
@@ -260,7 +260,7 @@ Text GLabel 5125 6400 2    47   BiDi ~ 0
 LCD-D6
 Text GLabel 5125 6300 2    47   BiDi ~ 0
 LCD-D7
-Text GLabel 2975 5550 0    47   BiDi ~ 0
+Text GLabel 5100 2400 2    47   BiDi ~ 0
 ENC-SW
 Text GLabel 3000 6500 0    47   BiDi ~ 0
 ENC-B
@@ -272,9 +272,9 @@ Wire Wire Line
 	3000 5300 3100 5300
 Wire Wire Line
 	3100 5100 3000 5100
-Text GLabel 2975 6150 0    47   Output ~ 0
-E3-EN
 Text GLabel 2975 5950 0    47   Output ~ 0
+E3-EN
+Text GLabel 2975 5850 0    47   Output ~ 0
 E3-STEP
 Text GLabel 2975 5750 0    47   Output ~ 0
 E3-DIR
@@ -422,4 +422,8 @@ Wire Wire Line
 	2975 5750 3100 5750
 Wire Wire Line
 	2975 5950 3100 5950
+Wire Wire Line
+	2975 5850 3100 5850
+Wire Wire Line
+	5100 2700 5000 2700
 $EndSCHEMATC
