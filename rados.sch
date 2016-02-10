@@ -1,17 +1,19 @@
 EESchema Schematic File Version 2
+LIBS:rados-rescue
+LIBS:import-transistors
+LIBS:import-regulators
+LIBS:import-opamps
+LIBS:import-diodes
 LIBS:led_reverse
 LIBS:arduino_shieldsNCL
 LIBS:otheruse_transistors
 LIBS:custom_power
-LIBS:import_resistors
-LIBS:import_regulators
-LIBS:import_transistors
-LIBS:import_diodes
+LIBS:import-misc
+LIBS:armin_misc
 LIBS:power
 LIBS:device
 LIBS:transistors
 LIBS:conn
-LIBS:import_misc
 LIBS:linear
 LIBS:regul
 LIBS:74xx
@@ -38,6 +40,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:arduino
+LIBS:ESP8266
 LIBS:rados-cache
 EELAYER 25 0
 EELAYER END
@@ -127,9 +130,9 @@ Text GLabel 5100 3400 2    47   Output ~ 0
 HP-FET3
 Text GLabel 5125 3700 2    47   Output ~ 0
 MP-FET1
-Text GLabel 5125 3800 2    47   Output ~ 0
+Text GLabel 5125 4200 2    47   Output ~ 0
 LP-FET1
-Text GLabel 5125 3900 2    47   Output ~ 0
+Text GLabel 5125 4300 2    47   Output ~ 0
 LP-FET2
 Wire Wire Line
 	5000 2000 5100 2000
@@ -181,10 +184,6 @@ Text GLabel 5100 3200 2    47   Output ~ 0
 Y-DIR
 Text GLabel 5100 3100 2    47   Output ~ 0
 Y-STEP
-Text GLabel 5125 4200 2    47   BiDi ~ 0
-SDA
-Text GLabel 5125 4300 2    47   BiDi ~ 0
-SCL
 $Comp
 L +5V #PWR04
 U 1 1 568ECF51
@@ -426,4 +425,8 @@ Wire Wire Line
 	2975 5850 3100 5850
 Wire Wire Line
 	5100 2700 5000 2700
+Text GLabel 5125 3800 2    47   Output ~ 0
+ESP-RX
+Text GLabel 5125 3900 2    47   Input ~ 0
+ESP-TX
 $EndSCHEMATC
