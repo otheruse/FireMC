@@ -215,19 +215,19 @@ Text GLabel 5125 4100 2    47   Output ~ 0
 X-DIR
 Text GLabel 5125 4000 2    47   Output ~ 0
 X-STEP
-Text GLabel 3000 6400 0    47   Output ~ 0
+Text GLabel 2975 6150 0    47   Output ~ 0
 X-EN
-Text GLabel 5125 5050 2    47   Input ~ 0
+Text GLabel 5125 6400 2    47   Input ~ 0
 X-
-Text GLabel 5125 5250 2    47   Input ~ 0
+Text GLabel 5125 6600 2    47   Input ~ 0
 Y-
-Text GLabel 5125 5450 2    47   Input ~ 0
+Text GLabel 3000 6500 0    47   Input ~ 0
 Z-
-Text GLabel 5125 5150 2    47   Input ~ 0
+Text GLabel 5125 6500 2    47   Input ~ 0
 X+
-Text GLabel 5125 5350 2    47   Input ~ 0
+Text GLabel 3000 6600 0    47   Input ~ 0
 Y+
-Text GLabel 5125 5550 2    47   Input ~ 0
+Text GLabel 3000 6400 0    47   Input ~ 0
 Z+
 Wire Wire Line
 	5125 5050 5000 5050
@@ -247,23 +247,23 @@ Wire Wire Line
 	5125 5650 5000 5650
 Wire Wire Line
 	5125 6200 5000 6200
-Text GLabel 3000 6600 0    47   BiDi ~ 0
+Text GLabel 5125 5900 2    47   BiDi ~ 0
 LCD-RS
-Text GLabel 5125 6500 2    47   BiDi ~ 0
+Text GLabel 5125 6100 2    47   BiDi ~ 0
 LCD-E
-Text GLabel 5125 6200 2    47   BiDi ~ 0
-LCD-D4
-Text GLabel 5125 6600 2    47   BiDi ~ 0
-LCD-D5
-Text GLabel 5125 6400 2    47   BiDi ~ 0
-LCD-D6
 Text GLabel 5125 6300 2    47   BiDi ~ 0
+LCD-D4
+Text GLabel 5125 5750 2    47   BiDi ~ 0
+LCD-D5
+Text GLabel 5125 6000 2    47   BiDi ~ 0
+LCD-D6
+Text GLabel 5125 6200 2    47   BiDi ~ 0
 LCD-D7
 Text GLabel 5100 2400 2    47   BiDi ~ 0
 ENC-SW
-Text GLabel 3000 6500 0    47   BiDi ~ 0
+Text GLabel 5125 5650 2    47   BiDi ~ 0
 ENC-B
-Text GLabel 3000 6300 0    47   BiDi ~ 0
+Text GLabel 5125 5550 2    47   BiDi ~ 0
 ENC-A
 Wire Wire Line
 	2975 5550 3100 5550
@@ -346,7 +346,7 @@ Wire Wire Line
 	3100 4200 3000 4200
 Wire Wire Line
 	3000 4100 3100 4100
-Text GLabel 5125 5750 2    47   Input ~ 0
+Text GLabel 5125 5350 2    47   Input ~ 0
 STATUS-LED
 Wire Wire Line
 	3000 6300 3100 6300
@@ -379,8 +379,8 @@ Wire Wire Line
 	5000 4000 5125 4000
 Wire Wire Line
 	5100 3300 5000 3300
-Text GLabel 5125 5650 2    47   Input ~ 0
-Probe
+Text GLabel 3000 6300 0    47   Input ~ 0
+PROBE
 Wire Wire Line
 	5000 6400 5125 6400
 Wire Wire Line
@@ -429,4 +429,8 @@ Text GLabel 5125 3800 2    47   Output ~ 0
 ESP-RX
 Text GLabel 5125 3900 2    47   Input ~ 0
 ESP-TX
+Wire Wire Line
+	5000 6100 5125 6100
+Wire Wire Line
+	5125 5900 5000 5900
 $EndSCHEMATC
