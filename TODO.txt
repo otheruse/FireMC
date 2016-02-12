@@ -1,7 +1,12 @@
-- Input caps SMPS need 1206 footprint
-- R42 should not be 4K7 (probably 470R-1K)
-- Some motor connectors are too close to 100uF caps
++ Input caps SMPS need 1206 footprint
++ R42 should not be 4K7 (probably 470R-1K)
++ Some motor connectors are too close to 100uF caps
 - Need a smaller inductor for SMPS
-- Print info on silkscreen (jumper locations, stepper name, stepper orientation, connector name/function/polarity)
-- Via's in power tracks should be bigger (or multiple via's)
+- Print info on silkscreen 
+	+ jumper locations
+	+ stepper name
+	- stepper orientation
+	+ connector name/function/polarity
++ Via's in power tracks should be bigger (or multiple via's)
+- Check if SMPS is working/what is wrong
 
