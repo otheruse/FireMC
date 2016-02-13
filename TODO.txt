@@ -9,4 +9,5 @@
 	+ connector name/function/polarity
 + Via's in power tracks should be bigger (or multiple via's)
 - Check if SMPS is working/what is wrong
+- check what we have on d13 - has arduino led on it
 
