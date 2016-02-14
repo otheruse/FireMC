@@ -11,4 +11,4 @@
 + Check if SMPS is working/what is wrong
 + check what we have on d13 - has arduino led on it
 - See if it's useful to connect more IO's of the esp8266 to the arduino
-
+- Check if we can have hardware PWM on some (all?) of the pwm outputs
