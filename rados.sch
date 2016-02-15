@@ -70,10 +70,10 @@ $EndComp
 Text GLabel 3000 2200 0    47   Input ~ 0
 RESET
 $Comp
-L GND #PWR3
+L GND #PWR01
 U 1 1 568A9269
 P 3100 2500
-F 0 "#PWR3" H 3100 2250 50  0001 C CNN
+F 0 "#PWR01" H 3100 2250 50  0001 C CNN
 F 1 "GND" H 2975 2400 50  0000 C CNN
 F 2 "" H 3100 2500 50  0000 C CNN
 F 3 "" H 3100 2500 50  0000 C CNN
@@ -81,10 +81,10 @@ F 3 "" H 3100 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR2
+L +3.3V #PWR02
 U 1 1 568A9448
 P 2650 2275
-F 0 "#PWR2" H 2650 2125 50  0001 C CNN
+F 0 "#PWR02" H 2650 2125 50  0001 C CNN
 F 1 "+3.3V" H 2625 2400 50  0000 C CNN
 F 2 "" H 2650 2275 50  0000 C CNN
 F 3 "" H 2650 2275 50  0000 C CNN
@@ -92,10 +92,10 @@ F 3 "" H 2650 2275 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR1
+L +5V #PWR03
 U 1 1 568A946E
 P 2525 2400
-F 0 "#PWR1" H 2525 2250 50  0001 C CNN
+F 0 "#PWR03" H 2525 2250 50  0001 C CNN
 F 1 "+5V" H 2500 2525 50  0000 C CNN
 F 2 "" H 2525 2400 50  0000 C CNN
 F 3 "" H 2525 2400 50  0000 C CNN
@@ -122,13 +122,13 @@ Text GLabel 5100 2800 2    47   Output ~ 0
 HP-FET1
 Text GLabel 5100 2900 2    47   Output ~ 0
 HP-FET2
-Text GLabel 5100 3400 2    47   Output ~ 0
+Text GLabel 5100 3000 2    47   Output ~ 0
 HP-FET3
 Text GLabel 5125 3700 2    47   Output ~ 0
 MP-FET1
-Text GLabel 5125 4200 2    47   Output ~ 0
+Text GLabel 5125 5350 2    47   Output ~ 0
 LP-FET1
-Text GLabel 5125 4300 2    47   Output ~ 0
+Text GLabel 5125 5050 2    47   Output ~ 0
 LP-FET2
 $Sheet
 S 6700 2925 1050 575 
@@ -144,8 +144,6 @@ F1 "misc.sch" 60
 $EndSheet
 Text GLabel 5100 2300 2    47   Output ~ 0
 SD-CS
-Text GLabel 5100 3000 2    47   Output ~ 0
-CS1
 Text GLabel 5100 2200 2    47   Output ~ 0
 Z-DIR
 Text GLabel 5100 2500 2    47   Output ~ 0
@@ -159,10 +157,10 @@ Y-DIR
 Text GLabel 5100 3100 2    47   Output ~ 0
 Y-STEP
 $Comp
-L +5V #PWR5
+L +5V #PWR04
 U 1 1 568ECF51
 P 5000 4625
-F 0 "#PWR5" H 5000 4475 50  0001 C CNN
+F 0 "#PWR04" H 5000 4475 50  0001 C CNN
 F 1 "+5V" H 5018 4799 50  0000 C CNN
 F 2 "" H 5000 4625 50  0000 C CNN
 F 3 "" H 5000 4625 50  0000 C CNN
@@ -171,9 +169,9 @@ F 3 "" H 5000 4625 50  0000 C CNN
 $EndComp
 Text GLabel 5100 3300 2    47   Output ~ 0
 Y-EN
-Text GLabel 5125 4100 2    47   Output ~ 0
+Text GLabel 5125 5250 2    47   Output ~ 0
 X-DIR
-Text GLabel 5125 4000 2    47   Output ~ 0
+Text GLabel 5125 5450 2    47   Output ~ 0
 X-STEP
 Text GLabel 2975 6150 0    47   Output ~ 0
 X-EN
@@ -214,10 +212,10 @@ E3-STEP
 Text GLabel 2975 5750 0    47   Output ~ 0
 E3-DIR
 $Comp
-L GND #PWR4
+L GND #PWR05
 U 1 1 568EE3CA
 P 3100 4850
-F 0 "#PWR4" H 3100 4600 50  0001 C CNN
+F 0 "#PWR05" H 3100 4600 50  0001 C CNN
 F 1 "GND" H 3100 4700 50  0000 C CNN
 F 2 "" H 3100 4850 50  0000 C CNN
 F 3 "" H 3100 4850 50  0000 C CNN
@@ -246,11 +244,11 @@ Text GLabel 3000 4400 0    47   Input ~ 0
 T3
 Text GLabel 3000 4500 0    47   Input ~ 0
 T4
-Text GLabel 5125 5350 2    47   Input ~ 0
+Text GLabel 5100 2000 2    47   Output ~ 0
 STATUS-LED
-Text GLabel 5100 1500 2    47   BiDi ~ 0
+Text GLabel 5125 4300 2    47   BiDi ~ 0
 SCL1
-Text GLabel 5100 1600 2    47   BiDi ~ 0
+Text GLabel 5125 4200 2    47   BiDi ~ 0
 SDA1
 Text GLabel 2975 1500 0    47   Input ~ 0
 SD-MISO
@@ -433,8 +431,6 @@ Wire Wire Line
 	5000 6100 5125 6100
 Wire Wire Line
 	5125 5900 5000 5900
-Text GLabel 5100 2000 2    47   Output ~ 0
-ARDUINO-LED
 Wire Wire Line
 	5000 2000 5100 2000
 $EndSCHEMATC
