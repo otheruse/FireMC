@@ -11,9 +11,10 @@
 + Check if SMPS is working/what is wrong
 + check what we have on d13 - has arduino led on it
 - See if it's useful to connect more IO's of the esp8266 to the arduino
-+ Check if we can have hardware PWM on some (all?) of the pwm outputs (pwm outputs are d2-d13)  - check microcontroller documentation to be certain
-- Don't use tx0 and rx0, they are connected to the atmega 16u2
-+ pin 20 and 21 (sda and scl) have 1k5 pull-ups -> check what's connected to them!
-- is the led on a high-current pin?
++ Check if we can have hardware PWM on some (all?) of the pwm outputs (pwm outputs are d2-d13) -> We now have all except LP-FET2 on pwm outputs
++ Don't use tx0 and rx0, they are connected to the atmega 16u2
++ pin 20 and 21 (sda and scl) have 1k5 pull-ups: check what's connected to them! -> Now: eeprom
++ is the led on a high-current pin? -> No. Is on the same pin as arduino led
++ Add header for I2C (sda, scl and gnd)
 
 
