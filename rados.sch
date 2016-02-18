@@ -83,12 +83,12 @@ $EndComp
 $Comp
 L +3.3V #PWR2
 U 1 1 568A9448
-P 2650 2275
-F 0 "#PWR2" H 2650 2125 50  0001 C CNN
-F 1 "+3.3V" H 2625 2400 50  0000 C CNN
-F 2 "" H 2650 2275 50  0000 C CNN
-F 3 "" H 2650 2275 50  0000 C CNN
-	1    2650 2275
+P 2450 1900
+F 0 "#PWR2" H 2450 1750 50  0001 C CNN
+F 1 "+3.3V" H 2425 2025 50  0000 C CNN
+F 2 "" H 2450 1900 50  0000 C CNN
+F 3 "" H 2450 1900 50  0000 C CNN
+	1    2450 1900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -201,9 +201,9 @@ Text GLabel 5125 6200 2    47   BiDi ~ 0
 LCD-D7
 Text GLabel 5100 1600 2    47   BiDi ~ 0
 ENC-SW
-Text GLabel 5125 5650 2    47   BiDi ~ 0
+Text GLabel 5125 4000 2    47   BiDi ~ 0
 ENC-B
-Text GLabel 5125 5550 2    47   BiDi ~ 0
+Text GLabel 5125 4100 2    47   BiDi ~ 0
 ENC-A
 Text GLabel 2975 5950 0    47   Output ~ 0
 E3-EN
@@ -271,7 +271,7 @@ ESP-RX
 Text GLabel 5125 3900 2    47   Input ~ 0
 ESP-TX
 Wire Wire Line
-	2650 2300 3100 2300
+	2650 1900 3100 1900
 Wire Wire Line
 	2525 2400 3100 2400
 Wire Wire Line
@@ -341,7 +341,11 @@ Wire Wire Line
 Wire Wire Line
 	3000 5450 3100 5450
 Wire Wire Line
-	3100 4625 3100 4850
+	3100 4625 3100 4725
+Wire Wire Line
+	3100 4725 3100 4825
+Wire Wire Line
+	3100 4825 3100 4850
 Wire Wire Line
 	2975 3400 3100 3400
 Wire Wire Line
@@ -357,7 +361,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 2700 3100 2700
 Wire Wire Line
-	2650 2300 2650 2275
+	2650 1900 2450 1900
 Wire Wire Line
 	3000 2200 3100 2200
 Wire Wire Line
@@ -433,4 +437,6 @@ Wire Wire Line
 	5125 5900 5000 5900
 Wire Wire Line
 	5000 2000 5100 2000
+Text GLabel 3000 3500 0    47   Input ~ 0
+MEASURE-VSUPPLY
 $EndSCHEMATC
