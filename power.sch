@@ -47,11 +47,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
-Title "RADOS"
-Date "2016-01-04"
+Title "FireMC"
+Date "2016-02-19"
 Rev "V1"
 Comp "OtherUse"
-Comment1 ""
+Comment1 "Firepick and Reprap Motion Controller"
 Comment2 ""
 Comment3 ""
 Comment4 ""

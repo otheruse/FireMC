@@ -47,11 +47,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
-Title "RADOS"
-Date "2016-01-04"
+Title "FireMC"
+Date "2016-02-19"
 Rev "V1"
 Comp "OtherUse"
-Comment1 "Reprap Arduino Due Opensource Shield"
+Comment1 "Firepick and Reprap Motion Controller"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -271,7 +271,7 @@ ESP-RX
 Text GLabel 5125 3900 2    47   Input ~ 0
 ESP-TX
 Wire Wire Line
-	2650 1900 3100 1900
+	2450 1900 3100 1900
 Wire Wire Line
 	2525 2400 3100 2400
 Wire Wire Line
@@ -341,11 +341,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 5450 3100 5450
 Wire Wire Line
-	3100 4625 3100 4725
-Wire Wire Line
-	3100 4725 3100 4825
-Wire Wire Line
-	3100 4825 3100 4850
+	3100 4625 3100 4850
 Wire Wire Line
 	2975 3400 3100 3400
 Wire Wire Line
@@ -360,8 +356,6 @@ Wire Wire Line
 	3000 3500 3100 3500
 Wire Wire Line
 	3000 2700 3100 2700
-Wire Wire Line
-	2650 1900 2450 1900
 Wire Wire Line
 	3000 2200 3100 2200
 Wire Wire Line
