@@ -16,6 +16,6 @@
 + pin 20 and 21 (sda and scl) have 1k5 pull-ups: check what's connected to them! -> Now: eeprom
 + is the led on a high-current pin? -> No. Is on the same pin as arduino led
 + Add header for I2C (sda, scl and gnd)
-- Add 5v, GND, SIG for Karl
++ Add 5v, GND, SIG for Karl
 
 
