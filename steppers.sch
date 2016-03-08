@@ -110,6 +110,9 @@ F 0 "C13" H 3888 1471 50  0000 L CNN
 F 1 "100uF" H 3888 1379 50  0000 L CNN
 F 2 "capacitors:c_elec_6.3x7.7" H 3800 1425 50  0001 C CNN
 F 3 "" H 3800 1425 50  0000 C CNN
+F 4 "50V" H 3800 1425 135 0001 L CNN "VoltageRating"
+F 5 "EMZR500ADA101MF80G" H 3800 1425 135 0001 L CNN "ManufacturerNo"
+F 6 "United Chemi-Con" H 3800 1425 135 0001 L CNN "Manufacturer"
 	1    3800 1425
 	1    0    0    -1  
 $EndComp
@@ -258,6 +261,9 @@ F 0 "C14" H 3888 2696 50  0000 L CNN
 F 1 "100uF" H 3888 2604 50  0000 L CNN
 F 2 "capacitors:c_elec_6.3x7.7" H 3800 2650 50  0001 C CNN
 F 3 "" H 3800 2650 50  0000 C CNN
+F 4 "50V" H 3800 2650 135 0001 L CNN "VoltageRating"
+F 5 "EMZR500ADA101MF80G" H 3800 2650 135 0001 L CNN "ManufacturerNo"
+F 6 "United Chemi-Con" H 3800 2650 135 0001 L CNN "Manufacturer"
 	1    3800 2650
 	1    0    0    -1  
 $EndComp
@@ -406,6 +412,9 @@ F 0 "C12" H 4038 3996 50  0000 L CNN
 F 1 "100uF" H 4038 3904 50  0000 L CNN
 F 2 "capacitors:c_elec_6.3x7.7" H 3950 3950 50  0001 C CNN
 F 3 "" H 3950 3950 50  0000 C CNN
+F 4 "50V" H 3950 3950 135 0001 L CNN "VoltageRating"
+F 5 "United Chemi-Con" H 3950 3950 135 0001 L CNN "Manufacturer"
+F 6 "EMZR500ADA101MF80G" H 3950 3950 135 0001 L CNN "ManufacturerNo"
 	1    3950 3950
 	1    0    0    -1  
 $EndComp
@@ -532,6 +541,9 @@ F 0 "C15" H 8988 4121 50  0000 L CNN
 F 1 "100uF" H 8988 4029 50  0000 L CNN
 F 2 "capacitors:c_elec_6.3x7.7" H 8900 4075 50  0001 C CNN
 F 3 "" H 8900 4075 50  0000 C CNN
+F 4 "50V" H 8900 4075 135 0001 L CNN "VoltageRating"
+F 5 "EMZR500ADA101MF80G" H 8900 4075 135 0001 L CNN "ManufacturerNo"
+F 6 "United Chemi-Con" H 8900 4075 135 0001 L CNN "Manufacturer"
 	1    8900 4075
 	1    0    0    -1  
 $EndComp
@@ -680,6 +692,9 @@ F 0 "C16" H 8963 1446 50  0000 L CNN
 F 1 "100uF" H 8963 1354 50  0000 L CNN
 F 2 "capacitors:c_elec_6.3x7.7" H 8875 1400 50  0001 C CNN
 F 3 "" H 8875 1400 50  0000 C CNN
+F 4 "50V" H 8875 1400 135 0001 L CNN "VoltageRating"
+F 5 "EMZR500ADA101MF80G" H 8875 1400 135 0001 L CNN "ManufacturerNo"
+F 6 "United Chemi-Con" H 8875 1400 135 0001 L CNN "Manufacturer"
 	1    8875 1400
 	1    0    0    -1  
 $EndComp
@@ -828,6 +843,9 @@ F 0 "C17" H 8963 2821 50  0000 L CNN
 F 1 "100uF" H 8963 2729 50  0000 L CNN
 F 2 "capacitors:c_elec_6.3x7.7" H 8875 2775 50  0001 C CNN
 F 3 "" H 8875 2775 50  0000 C CNN
+F 4 "50V" H 8875 2775 135 0001 L CNN "VoltageRating"
+F 5 "EMZR500ADA101MF80G" H 8875 2775 135 0001 L CNN "ManufacturerNo"
+F 6 "United Chemi-Con" H 8875 2775 135 0001 L CNN "Manufacturer"
 	1    8875 2775
 	1    0    0    -1  
 $EndComp
