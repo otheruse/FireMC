@@ -64,6 +64,7 @@ F 0 "SHIELD1" H 4050 7087 60  0000 C CNN
 F 1 "ARDUINO_DUE_SHIELD" H 4050 6981 60  0000 C CNN
 F 2 "arduino-footprint:ARDUINO_MEGA_DUE_SHIELD_FOOTPRINT_OTH2" H 4100 4150 60  0001 C CNN
 F 3 "" H 4100 4150 60  0000 C CNN
+F 4 "1pc     2x18    36 pins dual row 2.54mm pitch male header\\n5pcs    1x8     8 pins single row 2.54mm pitch male header\\n1pcs    1x10   10 pins singe row 2.54mm pitch male header\\n1pc     2x3     6 pins dual row 2.54mm pitch female header" H 4100 4150 135 0001 L CNN "Specification"
 	1    4100 4150
 	1    0    0    -1  
 $EndComp

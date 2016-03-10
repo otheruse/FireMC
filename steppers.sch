@@ -99,6 +99,7 @@ F 0 "J5" H 2475 2750 34  0000 C CNN
 F 1 "STEPSTICK" H 2475 2650 34  0000 C CNN
 F 2 "misc:STEPSTICK" H 2025 1925 60  0001 C CNN
 F 3 "" H 2025 1925 60  0000 C CNN
+F 4 "2x 8 pin 2.54mm pitch single row female header" H 2025 1925 135 0001 L CNN "Specification"
 	1    2025 1925
 	1    0    0    -1  
 $EndComp
@@ -140,9 +141,10 @@ L HEADER8 J2
 U 1 1 568BF3C9
 P 1500 1475
 F 0 "J2" H 1675 1907 34  0000 C CNN
-F 1 "HEADER" H 1675 1838 34  0000 C CNN
+F 1 "CONN_02X03" H 1675 1838 34  0000 C CNN
 F 2 "headers:CON_HDR_2x3_2.54mm" H 1500 1475 60  0001 C CNN
 F 3 "" H 1500 1475 60  0000 C CNN
+F 4 "6 pin 2.54mm pitch dual row male header" H 1500 1475 135 0001 L CNN "Specification"
 	1    1500 1475
 	-1   0    0    -1  
 $EndComp
@@ -167,6 +169,7 @@ F 0 "P8" H 3477 1513 50  0000 L CNN
 F 1 "CONN_01X04" H 3477 1421 50  0000 L CNN
 F 2 "headers:CON_HDR_1x4_2.54mm" H 3400 1475 50  0001 C CNN
 F 3 "" H 3400 1475 50  0000 C CNN
+F 4 "4 pin 2.54mm pitch single row male header" H 3400 1475 135 0001 L CNN "Specification"
 	1    3400 1475
 	1    0    0    -1  
 $EndComp
@@ -250,6 +253,7 @@ F 0 "J6" H 2475 3975 34  0000 C CNN
 F 1 "STEPSTICK" H 2475 3875 34  0000 C CNN
 F 2 "misc:STEPSTICK" H 2025 3150 60  0001 C CNN
 F 3 "" H 2025 3150 60  0000 C CNN
+F 4 "2x 8 pin 2.54mm pitch single row female header" H 2025 3150 135 0001 L CNN "Specification"
 	1    2025 3150
 	1    0    0    -1  
 $EndComp
@@ -291,9 +295,10 @@ L HEADER8 J3
 U 1 1 568BD85B
 P 1500 2700
 F 0 "J3" H 1675 3132 34  0000 C CNN
-F 1 "HEADER" H 1675 3063 34  0000 C CNN
+F 1 "CONN_02X03" H 1675 3063 34  0000 C CNN
 F 2 "headers:CON_HDR_2x3_2.54mm" H 1500 2700 60  0001 C CNN
 F 3 "" H 1500 2700 60  0000 C CNN
+F 4 "6 pin 2.54mm pitch dual row male header" H 1500 2700 135 0001 L CNN "Specification"
 	1    1500 2700
 	-1   0    0    -1  
 $EndComp
@@ -318,6 +323,7 @@ F 0 "P9" H 3477 2738 50  0000 L CNN
 F 1 "CONN_01X04" H 3477 2646 50  0000 L CNN
 F 2 "headers:CON_HDR_1x4_2.54mm" H 3400 2700 50  0001 C CNN
 F 3 "" H 3400 2700 50  0000 C CNN
+F 4 "4 pin 2.54mm pitch single row male header" H 3400 2700 135 0001 L CNN "Specification"
 	1    3400 2700
 	1    0    0    -1  
 $EndComp
@@ -401,6 +407,7 @@ F 0 "J4" H 2450 5275 34  0000 C CNN
 F 1 "STEPSTICK" H 2450 5175 34  0000 C CNN
 F 2 "misc:STEPSTICK" H 2000 4450 60  0001 C CNN
 F 3 "" H 2000 4450 60  0000 C CNN
+F 4 "2x 8 pin 2.54mm pitch single row female header" H 2000 4450 135 0001 L CNN "Specification"
 	1    2000 4450
 	1    0    0    -1  
 $EndComp
@@ -530,6 +537,7 @@ F 0 "J10" H 7575 5400 34  0000 C CNN
 F 1 "STEPSTICK" H 7575 5300 34  0000 C CNN
 F 2 "misc:STEPSTICK" H 7125 4575 60  0001 C CNN
 F 3 "" H 7125 4575 60  0000 C CNN
+F 4 "2x 8 pin 2.54mm pitch single row female header" H 7125 4575 135 0001 L CNN "Specification"
 	1    7125 4575
 	1    0    0    -1  
 $EndComp
@@ -571,9 +579,10 @@ L HEADER8 J7
 U 1 1 568C3A02
 P 6600 4125
 F 0 "J7" H 6775 4557 34  0000 C CNN
-F 1 "HEADER" H 6775 4488 34  0000 C CNN
+F 1 "CONN_02X03" H 6775 4488 34  0000 C CNN
 F 2 "headers:CON_HDR_2x3_2.54mm" H 6600 4125 60  0001 C CNN
 F 3 "" H 6600 4125 60  0000 C CNN
+F 4 "6 pin 2.54mm pitch dual row male header" H 6600 4125 135 0001 L CNN "Specification"
 	1    6600 4125
 	-1   0    0    -1  
 $EndComp
@@ -598,6 +607,7 @@ F 0 "P10" H 8577 4163 50  0000 L CNN
 F 1 "CONN_01X04" H 8577 4071 50  0000 L CNN
 F 2 "headers:CON_HDR_1x4_2.54mm" H 8500 4125 50  0001 C CNN
 F 3 "" H 8500 4125 50  0000 C CNN
+F 4 "4 pin 2.54mm pitch single row male header" H 8500 4125 135 0001 L CNN "Specification"
 	1    8500 4125
 	1    0    0    -1  
 $EndComp
@@ -681,6 +691,7 @@ F 0 "J11" H 7550 2725 34  0000 C CNN
 F 1 "STEPSTICK" H 7550 2625 34  0000 C CNN
 F 2 "misc:STEPSTICK" H 7100 1900 60  0001 C CNN
 F 3 "" H 7100 1900 60  0000 C CNN
+F 4 "2x 8 pin 2.54mm pitch single row female header" H 7100 1900 135 0001 L CNN "Specification"
 	1    7100 1900
 	1    0    0    -1  
 $EndComp
@@ -722,9 +733,10 @@ L HEADER8 J8
 U 1 1 568C3E66
 P 6575 1450
 F 0 "J8" H 6750 1882 34  0000 C CNN
-F 1 "HEADER" H 6750 1813 34  0000 C CNN
+F 1 "CONN_02X03" H 6750 1813 34  0000 C CNN
 F 2 "headers:CON_HDR_2x3_2.54mm" H 6575 1450 60  0001 C CNN
 F 3 "" H 6575 1450 60  0000 C CNN
+F 4 "6 pin 2.54mm pitch dual row male header" H 6575 1450 135 0001 L CNN "Specification"
 	1    6575 1450
 	-1   0    0    -1  
 $EndComp
@@ -749,6 +761,7 @@ F 0 "P11" H 8552 1488 50  0000 L CNN
 F 1 "CONN_01X04" H 8552 1396 50  0000 L CNN
 F 2 "headers:CON_HDR_1x4_2.54mm" H 8475 1450 50  0001 C CNN
 F 3 "" H 8475 1450 50  0000 C CNN
+F 4 "4 pin 2.54mm pitch single row male header" H 8475 1450 135 0001 L CNN "Specification"
 	1    8475 1450
 	1    0    0    -1  
 $EndComp
@@ -832,6 +845,7 @@ F 0 "J12" H 7550 4100 34  0000 C CNN
 F 1 "STEPSTICK" H 7550 4000 34  0000 C CNN
 F 2 "misc:STEPSTICK" H 7100 3275 60  0001 C CNN
 F 3 "" H 7100 3275 60  0000 C CNN
+F 4 "2x 8 pin 2.54mm pitch single row female header" H 7100 3275 135 0001 L CNN "Specification"
 	1    7100 3275
 	1    0    0    -1  
 $EndComp
@@ -873,9 +887,10 @@ L HEADER8 J9
 U 1 1 568C432F
 P 6575 2825
 F 0 "J9" H 6750 3257 34  0000 C CNN
-F 1 "HEADER" H 6750 3188 34  0000 C CNN
+F 1 "CONN_02X03" H 6750 3188 34  0000 C CNN
 F 2 "headers:CON_HDR_2x3_2.54mm" H 6575 2825 60  0001 C CNN
 F 3 "" H 6575 2825 60  0000 C CNN
+F 4 "6 pin 2.54mm pitch dual row male header" H 6575 2825 135 0001 L CNN "Specification"
 	1    6575 2825
 	-1   0    0    -1  
 $EndComp
@@ -900,6 +915,7 @@ F 0 "P12" H 8552 2863 50  0000 L CNN
 F 1 "CONN_01X04" H 8552 2771 50  0000 L CNN
 F 2 "headers:CON_HDR_1x4_2.54mm" H 8475 2825 50  0001 C CNN
 F 3 "" H 8475 2825 50  0000 C CNN
+F 4 "4 pin 2.54mm pitch single row male header" H 8475 2825 135 0001 L CNN "Specification"
 	1    8475 2825
 	1    0    0    -1  
 $EndComp
@@ -948,6 +964,7 @@ F 0 "P7" H 3425 4250 50  0000 C CNN
 F 1 "CONN_02X04" H 3425 3750 50  0000 C CNN
 F 2 "headers:CON_HDR_2x4_2.54mm" H 3425 2800 50  0001 C CNN
 F 3 "" H 3425 2800 50  0000 C CNN
+F 4 "8 pin 2.54mm pitch dual row male header" H 3425 4000 135 0001 L CNN "Specification"
 	1    3425 4000
 	1    0    0    -1  
 $EndComp
@@ -970,9 +987,10 @@ L HEADER8 J1
 U 1 1 568BDFD4
 P 1475 4000
 F 0 "J1" H 1650 4432 34  0000 C CNN
-F 1 "HEADER" H 1650 4363 34  0000 C CNN
+F 1 "CONN_02X03" H 1650 4363 34  0000 C CNN
 F 2 "headers:CON_HDR_2x3_2.54mm" H 1475 4000 60  0001 C CNN
 F 3 "" H 1475 4000 60  0000 C CNN
+F 4 "6 pin 2.54mm pitch dual row male header" H 1475 4000 135 0001 L CNN "Specification"
 	1    1475 4000
 	-1   0    0    -1  
 $EndComp

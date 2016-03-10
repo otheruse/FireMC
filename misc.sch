@@ -118,9 +118,11 @@ L CONN_02X05 P21
 U 1 1 568D8280
 P 9700 1800
 F 0 "P21" H 9700 2216 50  0000 C CNN
-F 1 "THERMISTORS" H 9700 2124 50  0000 C CNN
+F 1 "CONN_02x05" H 9700 2124 50  0000 C CNN
 F 2 "headers:CON_HDR_2x5_2.54mm" H 9700 600 50  0001 C CNN
 F 3 "" H 9700 600 50  0000 C CNN
+F 4 "Thermistors" H 9700 1800 135 0001 L CNN "Comment"
+F 5 "10 pin 2.54mm pitch dual row male header" H 9700 1800 135 0001 L CNN "Specification"
 	1    9700 1800
 	1    0    0    -1  
 $EndComp
@@ -287,9 +289,10 @@ L CONN_02X07 P15
 U 1 1 568D8D39
 P 6225 1825
 F 0 "P15" H 6225 2300 50  0000 C CNN
-F 1 "LIMIT_SWITCHES" H 6100 2225 50  0000 C CNN
+F 1 "CONN_02x07" H 6100 2225 50  0000 C CNN
 F 2 "headers:CON_HDR_2x7_2.54mm" H 6225 625 50  0001 C CNN
 F 3 "" H 6225 625 50  0000 C CNN
+F 4 "14 pin 2.54mm pitch dual row male header" H 6225 1825 135 0001 L CNN "Specification"
 	1    6225 1825
 	1    0    0    -1  
 $EndComp
@@ -298,9 +301,10 @@ L CONN_01X07 P16
 U 1 1 568D8FFA
 P 7100 1825
 F 0 "P16" H 7177 1863 50  0000 L CNN
-F 1 "LIMIT_SWITCHES_V" H 7177 1771 50  0000 L CNN
+F 1 "CONN_01X07" H 7177 1771 50  0000 L CNN
 F 2 "headers:CON_HDR_1x7_2.54mm" H 7100 1825 50  0001 C CNN
 F 3 "" H 7100 1825 50  0000 C CNN
+F 4 "7 pin 2.54mm pitch single row male header" H 7100 1825 135 0001 L CNN "Specification"
 	1    7100 1825
 	1    0    0    -1  
 $EndComp
@@ -450,6 +454,7 @@ F 0 "P20" H 4150 7200 50  0000 L CNN
 F 1 "CONN_01X03" H 3700 7400 50  0000 L CNN
 F 2 "headers:CON_HDR_1x3_2.54mm" H 4050 7200 50  0001 C CNN
 F 3 "" H 4050 7200 50  0000 C CNN
+F 4 "3 pin 2.54mm pitch single row male header" H 4050 7200 135 0001 L CNN "Specification"
 	1    4050 7200
 	-1   0    0    1   
 $EndComp
@@ -576,6 +581,7 @@ F 0 "P19" H 4150 6700 50  0000 L CNN
 F 1 "CONN_01X03" H 3700 6900 50  0000 L CNN
 F 2 "headers:CON_HDR_1x3_2.54mm" H 4050 6700 50  0001 C CNN
 F 3 "" H 4050 6700 50  0000 C CNN
+F 4 "3 pin 2.54mm pitch single row male header" H 4050 6700 135 0001 L CNN "Specification"
 	1    4050 6700
 	-1   0    0    1   
 $EndComp
@@ -587,6 +593,7 @@ F 0 "P18" H 4150 6200 50  0000 L CNN
 F 1 "CONN_01X03" H 3700 6400 50  0000 L CNN
 F 2 "headers:CON_HDR_1x3_2.54mm" H 4050 6200 50  0001 C CNN
 F 3 "" H 4050 6200 50  0000 C CNN
+F 4 "3 pin 2.54mm pitch single row male header" H 4050 6200 135 0001 L CNN "Specification"
 	1    4050 6200
 	-1   0    0    1   
 $EndComp
@@ -598,6 +605,7 @@ F 0 "P17" H 4150 5700 50  0000 L CNN
 F 1 "CONN_01X03" H 3700 5900 50  0000 L CNN
 F 2 "headers:CON_HDR_1x3_2.54mm" H 4050 5700 50  0001 C CNN
 F 3 "" H 4050 5700 50  0000 C CNN
+F 4 "3 pin 2.54mm pitch single row male header" H 4050 5700 135 0001 L CNN "Specification"
 	1    4050 5700
 	-1   0    0    1   
 $EndComp
@@ -668,9 +676,11 @@ L CONN_02X05 P13
 U 1 1 568EED09
 P 2400 5875
 F 0 "P13" H 2400 6291 50  0000 C CNN
-F 1 "EXT_SD" H 2400 6199 50  0000 C CNN
+F 1 "CONN_02x05" H 2400 6199 50  0000 C CNN
 F 2 "headers:CON_HDR_2x5_2.54mm" H 2400 4675 50  0001 C CNN
 F 3 "" H 2400 4675 50  0000 C CNN
+F 4 "EXT_SD" H 2400 5875 135 0001 L CNN "Comment"
+F 5 "10 pin 2.54mm pitch dual row male header" H 2400 5875 135 0001 L CNN "Specification"
 	1    2400 5875
 	1    0    0    -1  
 $EndComp
@@ -679,9 +689,10 @@ L CONN_02X05 P14
 U 1 1 568EF014
 P 2400 6925
 F 0 "P14" H 2400 7341 50  0000 C CNN
-F 1 "LCD" H 2400 7249 50  0000 C CNN
+F 1 "CONN_02x05" H 2400 7249 50  0000 C CNN
 F 2 "headers:CON_HDR_2x5_2.54mm" H 2400 5725 50  0001 C CNN
 F 3 "" H 2400 5725 50  0000 C CNN
+F 4 "10 pin 2.54mm pitch dual row male header" H 2400 6925 135 0001 L CNN "Specification"
 	1    2400 6925
 	1    0    0    -1  
 $EndComp
@@ -811,6 +822,8 @@ F 0 "D17" H 4873 3423 34  0000 R CNN
 F 1 "Blue" H 4804 3423 34  0000 R CNN
 F 2 "diodes:LED-0603" H 4725 3450 60  0001 C CNN
 F 3 "" H 4725 3450 60  0000 C CNN
+F 4 "Lite-On" H 4725 3450 135 0001 L CNN "Manufacturer"
+F 5 "LTST-C193TBKT-5A" H 4725 3450 135 0001 L CNN "ManufacturerNo"
 	1    4725 3450
 	0    -1   -1   0   
 $EndComp
@@ -819,9 +832,12 @@ L SW_PUSH SW1
 U 1 1 568F83A9
 P 4700 4525
 F 0 "SW1" H 4700 4781 50  0000 C CNN
-F 1 "RESET" H 4700 4689 50  0000 C CNN
+F 1 "BUTTON" H 4700 4689 50  0000 C CNN
 F 2 "buttons_switches:BUTTON_PUSH_SMD_6x6mm" H 4700 4525 50  0001 C CNN
 F 3 "" H 4700 4525 50  0000 C CNN
+F 4 "FX" H 4700 4525 135 0001 L CNN "Manufacturer"
+F 5 "SMT060606" H 4700 4525 135 0001 L CNN "ManufacturerNo"
+F 6 "Momentary push button 6x6mm" H 4700 4525 135 0001 L CNN "Specification"
 	1    4700 4525
 	1    0    0    -1  
 $EndComp
@@ -955,6 +971,7 @@ F 2 "misc:ESP-12E" H 6850 3900 50  0001 C CNN
 F 3 "" H 6850 3900 50  0001 C CNN
 F 4 "AI-Thinker" H 6850 3900 135 0001 L CNN "Manufacturer"
 F 5 "ESP-12E" H 6850 3900 135 0001 L CNN "ManufacturerNo"
+F 6 "ESP8266 WiFi module" H 6850 3900 135 0001 L CNN "description"
 	1    6850 3900
 	1    0    0    -1  
 $EndComp
@@ -995,9 +1012,11 @@ L CONN_01X03 P25
 U 1 1 56C3648D
 P 2375 4850
 F 0 "P25" H 2375 4575 50  0000 C CNN
-F 1 "I2C" H 2375 4650 50  0000 C CNN
+F 1 "CONN_01X03" H 2375 4650 50  0000 C CNN
 F 2 "headers:CON_HDR_1x3_2.54mm" H 2375 4850 50  0001 C CNN
 F 3 "" H 2375 4850 50  0000 C CNN
+F 4 "I2C" H 2375 4850 135 0001 L CNN "Comment"
+F 5 "3 pin 2.54mm pitch single row male header" H 2375 4850 135 0001 L CNN "Specification"
 	1    2375 4850
 	-1   0    0    1   
 $EndComp
@@ -1052,9 +1071,11 @@ L JUMPER3 JP3
 U 1 1 56C468CA
 P 4400 5375
 F 0 "JP3" H 4475 5275 50  0000 C CNN
-F 1 "AUX_VSEL" H 4425 5500 50  0000 C CNN
+F 1 "CONN_01X03" H 4425 5500 50  0000 C CNN
 F 2 "headers:CON_HDR_1x3_2.54mm" H 4400 5375 50  0001 C CNN
 F 3 "" H 4400 5375 50  0000 C CNN
+F 4 "AUX_VSEL" H 4400 5375 135 0001 L CNN "Comment"
+F 5 "3 pin 2.54mm pitch single row male header" H 4400 5375 135 0001 L CNN "Specification"
 	1    4400 5375
 	1    0    0    -1  
 $EndComp
@@ -1078,9 +1099,11 @@ L Jumper_NC_Small JP4
 U 1 1 56C5EDDD
 P 5450 4300
 F 0 "JP4" H 5450 4421 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 5460 4240 50  0001 C CNN
+F 1 "CONN_01X02" H 5460 4240 50  0001 C CNN
 F 2 "headers:CON_HDR_1x2_2.54mm" H 5450 4421 50  0001 C CNN
 F 3 "" H 5450 4300 50  0000 C CNN
+F 4 "Jumper" H 5450 4300 135 0001 L CNN "Comment"
+F 5 "2 pin 2.54mm pitch single row male header" H 5450 4300 135 0001 L CNN "Specification"
 	1    5450 4300
 	1    0    0    -1  
 $EndComp
