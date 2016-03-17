@@ -118,10 +118,10 @@ F 6 "United Chemi-Con" H 3800 1425 135 0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Vsupply #P19
+L Vsupply #P20
 U 1 1 568BEEB3
 P 3150 775
-F 0 "#P19" H 3150 775 60  0001 C CNN
+F 0 "#P20" H 3150 775 60  0001 C CNN
 F 1 "Vsupply" H 3150 725 34  0000 C CNN
 F 2 "" H 3150 775 60  0000 C CNN
 F 3 "" H 3150 775 60  0000 C CNN
@@ -272,10 +272,10 @@ F 6 "United Chemi-Con" H 3800 2650 135 0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Vsupply #P20
+L Vsupply #P21
 U 1 1 568BD851
 P 3150 2000
-F 0 "#P20" H 3150 2000 60  0001 C CNN
+F 0 "#P21" H 3150 2000 60  0001 C CNN
 F 1 "Vsupply" H 3150 1950 34  0000 C CNN
 F 2 "" H 3150 2000 60  0000 C CNN
 F 3 "" H 3150 2000 60  0000 C CNN
@@ -426,10 +426,10 @@ F 6 "EMZR500ADA101MF80G" H 3950 3950 135 0001 L CNN "ManufacturerNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Vsupply #P18
+L Vsupply #P19
 U 1 1 568BDFCA
 P 3125 3300
-F 0 "#P18" H 3125 3300 60  0001 C CNN
+F 0 "#P19" H 3125 3300 60  0001 C CNN
 F 1 "Vsupply" H 3125 3250 34  0000 C CNN
 F 2 "" H 3125 3300 60  0000 C CNN
 F 3 "" H 3125 3300 60  0000 C CNN
@@ -556,10 +556,10 @@ F 6 "United Chemi-Con" H 8900 4075 135 0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Vsupply #P23
+L Vsupply #P24
 U 1 1 568C39F8
 P 8250 3425
-F 0 "#P23" H 8250 3425 60  0001 C CNN
+F 0 "#P24" H 8250 3425 60  0001 C CNN
 F 1 "Vsupply" H 8250 3375 34  0000 C CNN
 F 2 "" H 8250 3425 60  0000 C CNN
 F 3 "" H 8250 3425 60  0000 C CNN
@@ -710,10 +710,10 @@ F 6 "United Chemi-Con" H 8875 1400 135 0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Vsupply #P21
+L Vsupply #P22
 U 1 1 568C3E5C
 P 8225 750
-F 0 "#P21" H 8225 750 60  0001 C CNN
+F 0 "#P22" H 8225 750 60  0001 C CNN
 F 1 "Vsupply" H 8225 700 34  0000 C CNN
 F 2 "" H 8225 750 60  0000 C CNN
 F 3 "" H 8225 750 60  0000 C CNN
@@ -864,10 +864,10 @@ F 6 "United Chemi-Con" H 8875 2775 135 0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Vsupply #P22
+L Vsupply #P23
 U 1 1 568C4325
 P 8225 2125
-F 0 "#P22" H 8225 2125 60  0001 C CNN
+F 0 "#P23" H 8225 2125 60  0001 C CNN
 F 1 "Vsupply" H 8225 2075 34  0000 C CNN
 F 2 "" H 8225 2125 60  0000 C CNN
 F 3 "" H 8225 2125 60  0000 C CNN
