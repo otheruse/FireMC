@@ -60,7 +60,7 @@ Connection ~ 4400 2075
 Wire Wire Line
 	5150 2075 4400 2075
 Wire Wire Line
-	6150 2625 6950 2625
+	5550 2625 5575 2625
 Wire Wire Line
 	5550 2625 4975 2625
 Wire Wire Line
@@ -73,16 +73,8 @@ Wire Wire Line
 	5150 1925 5150 2075
 Text Notes 5150 1475 0    50   ~ 0
 JP1 - VSEL - Select voltage\n1-2 = POWER_IN = 24 V (or > 15V)\n2-3 = POWER_IN = 12 V (or < 15V)
-Text GLabel 6950 2625 2    47   Output ~ 0
+Text GLabel 5575 2625 2    47   Output ~ 0
 ARDUINO-VIN
-Wire Notes Line
-	5850 2725 5850 2825
-Wire Notes Line
-	5750 2925 5750 2825
-Wire Notes Line
-	5750 2825 7950 2825
-Wire Notes Line
-	7950 2825 7950 2975
 Wire Notes Line
 	4600 1625 5000 1625
 Wire Notes Line
@@ -96,7 +88,9 @@ Wire Notes Line
 Wire Notes Line
 	5100 1525 5250 1525
 Wire Wire Line
-	4400 1925 4400 2625
+	4400 1925 4400 2075
+Wire Wire Line
+	4400 2075 4400 2625
 $Comp
 L STPS3L40UF D1
 U 1 1 568AB186
@@ -111,7 +105,9 @@ F 5 "STPS2L40UF" H 3025 2300 135 0001 L CNN "ManufacturerNo"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2975 1575 2975 2075
+	2975 1575 2975 1825
+Wire Wire Line
+	2975 1825 2975 2075
 Connection ~ 3375 1825
 $Comp
 L JUMPER3 JP1
@@ -137,19 +133,6 @@ F 3 "" H 4750 2675 60  0000 C CNN
 F 4 "Fairchild Semiconductor" H 4750 2675 135 0001 L CNN "Manufacturer"
 F 5 "ES1G" H 4750 2675 135 0001 L CNN "ManufacturerNo"
 	1    4750 2675
-	1    0    0    -1  
-$EndComp
-$Comp
-L JUMPER JP2
-U 1 1 568ABCE3
-P 5850 2625
-F 0 "JP2" H 5850 2890 50  0000 C CNN
-F 1 "CONN_01X02" H 5850 2798 50  0000 C CNN
-F 2 "headers:CON_HDR_1x2_2.54mm" H 5850 2625 50  0001 C CNN
-F 3 "" H 5850 2625 50  0000 C CNN
-F 4 "BOARD_POWER" H 5850 2625 135 0001 L CNN "Comment"
-F 5 "2 pin 2.54mm pitch single row male header" H 5850 2625 135 0001 L CNN "Specification"
-	1    5850 2625
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -468,7 +451,11 @@ F 8 "ST1S14PHR" H 2075 2200 135 0001 L CNN "ManufacturerNo"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1625 1925 2075 1925
+	1625 1925 1675 1925
+Wire Wire Line
+	1675 1925 2000 1925
+Wire Wire Line
+	2000 1925 2075 1925
 $Comp
 L C_Small C3
 U 1 1 56BDE999
@@ -496,10 +483,14 @@ F 5 "X7R" H 2000 2200 135 0001 L CNN "Specification"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 1925 2000 2100
+	2000 1925 2000 2025
+Wire Wire Line
+	2000 2025 2000 2100
 Connection ~ 2000 1925
 Wire Wire Line
-	3950 2600 1675 2600
+	3950 2600 2975 2600
+Wire Wire Line
+	2975 2600 1675 2600
 Wire Wire Line
 	2075 2025 2000 2025
 Connection ~ 2000 2025
@@ -542,7 +533,9 @@ Connection ~ 2975 2600
 Wire Wire Line
 	3375 1875 3375 1825
 Wire Wire Line
-	3100 2125 3650 2125
+	3100 2125 3375 2125
+Wire Wire Line
+	3375 2125 3650 2125
 Wire Wire Line
 	3100 2125 3100 2025
 Wire Wire Line
@@ -565,7 +558,9 @@ Wire Wire Line
 	3950 2000 3950 1825
 Connection ~ 3950 1825
 Wire Wire Line
-	3950 2200 3950 2600
+	3950 2200 3950 2475
+Wire Wire Line
+	3950 2475 3950 2600
 $Comp
 L C_Small C1
 U 1 1 56BDFA86
@@ -588,7 +583,15 @@ Connection ~ 1675 1925
 Wire Wire Line
 	2000 2300 2000 2475
 Wire Wire Line
-	2000 2475 3950 2475
+	2000 2475 2375 2475
+Wire Wire Line
+	2375 2475 2475 2475
+Wire Wire Line
+	2475 2475 2575 2475
+Wire Wire Line
+	2575 2475 3375 2475
+Wire Wire Line
+	3375 2475 3950 2475
 Connection ~ 3950 2475
 Wire Wire Line
 	3375 2350 3375 2475
@@ -645,11 +648,17 @@ F 5 "RLB0914-180KL" H 3200 1825 135 0001 L CNN "ManufacturerNo"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2850 1825 3100 1825
+	2850 1825 2975 1825
 Wire Wire Line
-	3300 1825 4150 1825
-Text Notes 5800 2975 0    50   ~ 0
-JP2: Supply 12V to Arduino in standalone operation\n
+	2975 1825 3100 1825
+Wire Wire Line
+	3300 1825 3375 1825
+Wire Wire Line
+	3375 1825 3650 1825
+Wire Wire Line
+	3650 1825 3950 1825
+Wire Wire Line
+	3950 1825 4150 1825
 $Comp
 L Vsupply #P7
 U 1 1 56C4E641
@@ -699,7 +708,9 @@ $EndComp
 Wire Wire Line
 	3300 4150 3300 4100
 Wire Wire Line
-	3300 3875 3300 3800
+	3300 3875 3300 3850
+Wire Wire Line
+	3300 3850 3300 3800
 Wire Wire Line
 	3300 3575 3300 3475
 Text GLabel 3475 3850 2    47   Output ~ 0
