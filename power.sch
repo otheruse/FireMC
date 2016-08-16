@@ -160,7 +160,7 @@ F 5 "1923869" H 1225 4400 135 0001 L CNN "ManufacturerNo"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR6
+L GND-RESCUE-rados #PWR6
 U 1 1 568AE875
 P 1425 4450
 F 0 "#PWR6" H 1425 4200 50  0001 C CNN
@@ -224,7 +224,7 @@ F 5 "1923869" H 1250 3750 135 0001 L CNN "ManufacturerNo"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR7
+L GND-RESCUE-rados #PWR7
 U 1 1 568ADBA9
 P 1450 3800
 F 0 "#PWR7" H 1450 3550 50  0001 C CNN
@@ -275,7 +275,7 @@ F 3 "" H 2100 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR8
+L GND-RESCUE-rados #PWR8
 U 1 1 56BC5BCA
 P 1625 5325
 F 0 "#PWR8" H 1625 5075 50  0001 C CNN
@@ -315,7 +315,7 @@ F 4 "2 pin 2.54mm pitch single row male header" H 1350 5225 135 0001 L CNN "Spec
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR11
+L GND-RESCUE-rados #PWR11
 U 1 1 56BC656B
 P 1625 6475
 F 0 "#PWR11" H 1625 6225 50  0001 C CNN
@@ -355,7 +355,7 @@ F 3 "" H 1625 6325 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR9
+L GND-RESCUE-rados #PWR9
 U 1 1 56BC6A92
 P 1625 5850
 F 0 "#PWR9" H 1625 5600 50  0001 C CNN
@@ -395,7 +395,7 @@ F 4 "2 pin 2.54mm pitch single row male header" H 1350 5750 135 0001 L CNN "Spec
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR13
+L GND-RESCUE-rados #PWR13
 U 1 1 56BC6B73
 P 1625 7100
 F 0 "#PWR13" H 1625 6850 50  0001 C CNN
@@ -603,7 +603,7 @@ Wire Wire Line
 	2375 2200 2375 2475
 Connection ~ 2375 2475
 $Comp
-L GND #PWR15
+L GND-RESCUE-rados #PWR15
 U 1 1 56BE0E01
 P 3950 2600
 F 0 "#PWR15" H 3950 2350 50  0001 C CNN
@@ -695,7 +695,7 @@ F 4 "1%" H 3225 3875 135 0001 L CNN "Specification"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR14
+L GND-RESCUE-rados #PWR14
 U 1 1 56C4EA68
 P 3300 4150
 F 0 "#PWR14" H 3300 3900 50  0001 C CNN

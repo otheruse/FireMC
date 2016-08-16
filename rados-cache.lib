@@ -542,7 +542,8 @@ F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
  CP*
- Elko*
+ C_Axial*
+ C_Radial*
  TantalC*
  C*elec
  c_elec*
@@ -654,11 +655,11 @@ X ~ 2 250 0 100 L 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# GND
+# GND-RESCUE-rados
 #
-DEF GND #PWR 0 0 Y Y 1 F P
+DEF GND-RESCUE-rados #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND" 0 -150 50 H V C CNN
+F1 "GND-RESCUE-rados" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -773,8 +774,8 @@ F1 "L_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- CP*
- SM*
+ Choke_*
+ *Coil*
 $ENDFPLIST
 DRAW
 A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
